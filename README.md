@@ -46,4 +46,4 @@ Este repositório documenta toda a evolução prática do semestre na construç�
 
 1. **Clone o repositório:**
    ```bash
-   git clone [https://github.com/matcand/ilp3-projeto-vue.git](https://github.com/matcand/ilp3-projeto-vue.git)
+   git clone [https://github.com/matcand/fatec-spa-vue-react.git](https://github.com/matcand/fatec-spa-vue-react.git)
