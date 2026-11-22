@@ -2,19 +2,20 @@
 
 Projeto prático desenvolvido durante a disciplina de **Linguagens de Programação III (ILP3)** no curso de **Informática para Negócios** da **FATEC São Bernardo do Campo (FATEC SBC)**.
 
-O objetivo deste repositório é documentar a evolução prática na construção de aplicações front-end modernas, aplicando padrões de arquitetura de mercado, componentização e consumo de APIs utilizando **Vue.js 3** e **React**.
+Este repositório documenta toda a evolução prática do semestre na construção de aplicações front-end modernas, aplicando padrões de arquitetura de mercado, Atomic Design, gerenciamento de estado global e consumo de APIs REST utilizando **Vue.js 3** e **React**.
 
 ## 🛠️ Tecnologias Utilizadas
 
 ### Módulo 1: Vue.js
 * **Vue.js 3** (Options API & Composition API `setup`)
-* **Vue Router 4** (Roteamento dinâmico e navegação)
+* **Vue Router 4** (Roteamento dinâmico e navegação SPA)
 * **Pinia** (Gerenciamento de estado global centralizado)
 * **Axios** (Cliente HTTP para consumo de API REST)
 
 ### Módulo 2: React
 * **React 18** (Componentes Funcionais, Hooks `useState` & `useEffect`, Eventos Sintéticos)
 * **JSX** (JavaScript XML)
+* **Atomic Design** (Átomos, Moléculas, Organismos, Layouts e Pages)
 * **Fetch API** (Consumo assíncrono de dados REST)
 
 ### Ferramentas Base
@@ -22,9 +23,9 @@ O objetivo deste repositório é documentar a evolução prática na construçã
 * **JavaScript (ES6+)**, **HTML5** e **CSS3**
 * **IDE:** JetBrains IntelliJ IDEA
 
-## 📈 Evolução das Aulas (Roadmap do Semestre)
+## 📈 Evolução das Aulas (Roadmap Completo — 100% Concluído)
 
-### 🟢 Módulo Vue.js (Concluído)
+### 🟢 Módulo Vue.js (Aulas 01 a 10)
 - [x] **Aulas 01 a 03 — Fundamentos:** Single File Components (`.vue`), interpolação, diretivas e reatividade básica.
 - [x] **Aula 04 — Eventos:** Comunicação Filho → Pai utilizando `$emit`, *props* e fluxo unidirecional.
 - [x] **Aula 05 — Computed & Watchers:** Cálculos derivados com cache (`computed`) e monitoramento de estado (`watch`).
@@ -34,16 +35,15 @@ O objetivo deste repositório é documentar a evolução prática na construçã
 - [x] **Aula 09 — Estado Global (Pinia):** Centralização de dados em *Stores* (`state`, `getters` e `actions`).
 - [x] **Aula 10 — Mini Projeto CRUD Completo:** Sistema completo de gerenciamento de usuários em arquitetura profissional.
 
-### 🔵 Módulo React (Em Andamento)
+### 🔵 Módulo React (Aulas 11 a 15)
 - [x] **Aula 11 — Introdução ao React e JSX:** Configuração com Vite, Virtual DOM, Componentes Funcionais e uso de `props`.
 - [x] **Aula 12 — Props e State:** Gerenciamento de estado reativo com `useState`, imutabilidade, fluxo unidirecional (Pai → Filho) e renderização de listas dinâmicas com cálculo agregado (`.reduce()`).
 - [x] **Aula 13 — Eventos e Listas:** Manipulação de `SyntheticEvents` (`onSubmit`, `onChange`, `onClick`), formulários controlados, validação de campos e To-Do List dinâmica com `.map()`, `key` e prioridades.
 - [x] **Aula 14 — Hooks (`useState` e `useEffect`):** Mapeamento de ciclo de vida com Hooks, consumo assíncrono de API com simulação de *loading* e tratamento de erro, atualização reativa por dependências e limpeza de timers (`clearTimeout` / `clearInterval`) no *cleanup*.
-- [ ] **Aula 15:** *(Última aula do módulo)*
+- [x] **Aula 15 — Componentização e Reutilização (Atomic Design):** Refatoração de layout em Átomos (`Button`, `Input`, `Badge`), Moléculas (`UserForm`), Organismos (`UserList`), Layout (`PageLayout`) e Página Container (`UsersPage`), com separação de responsabilidades (UI vs. lógica) e estilização modular em CSS externo.
 
 ## ⚙️ Como Executar os Projetos Localmente
 
 1. **Clone o repositório:**
    ```bash
    git clone [https://github.com/matcand/ilp3-projeto-vue.git](https://github.com/matcand/ilp3-projeto-vue.git)
-   
