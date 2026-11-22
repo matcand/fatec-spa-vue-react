@@ -13,8 +13,9 @@ O objetivo deste repositório é documentar a evolução prática na construçã
 * **Axios** (Cliente HTTP para consumo de API REST)
 
 ### Módulo 2: React
-* **React 18** (Componentes Funcionais & Hooks `useState`)
+* **React 18** (Componentes Funcionais, Hooks `useState` & `useEffect`, Eventos Sintéticos)
 * **JSX** (JavaScript XML)
+* **Fetch API** (Consumo assíncrono de dados REST)
 
 ### Ferramentas Base
 * **Vite** (Build tool e servidor de desenvolvimento rápido)
@@ -36,10 +37,13 @@ O objetivo deste repositório é documentar a evolução prática na construçã
 ### 🔵 Módulo React (Em Andamento)
 - [x] **Aula 11 — Introdução ao React e JSX:** Configuração com Vite, Virtual DOM, Componentes Funcionais e uso de `props`.
 - [x] **Aula 12 — Props e State:** Gerenciamento de estado reativo com `useState`, imutabilidade, fluxo unidirecional (Pai → Filho) e renderização de listas dinâmicas com cálculo agregado (`.reduce()`).
-- [ ] **Aulas 13 a 15:** *(Em andamento)*
+- [x] **Aula 13 — Eventos e Listas:** Manipulação de `SyntheticEvents` (`onSubmit`, `onChange`, `onClick`), formulários controlados, validação de campos e To-Do List dinâmica com `.map()`, `key` e prioridades.
+- [x] **Aula 14 — Hooks (`useState` e `useEffect`):** Mapeamento de ciclo de vida com Hooks, consumo assíncrono de API com simulação de *loading* e tratamento de erro, atualização reativa por dependências e limpeza de timers (`clearTimeout` / `clearInterval`) no *cleanup*.
+- [ ] **Aula 15:** *(Última aula do módulo)*
 
 ## ⚙️ Como Executar os Projetos Localmente
 
 1. **Clone o repositório:**
    ```bash
    git clone [https://github.com/matcand/ilp3-projeto-vue.git](https://github.com/matcand/ilp3-projeto-vue.git)
+   
